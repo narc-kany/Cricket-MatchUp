@@ -1,32 +1,5 @@
 import streamlit as st
 import pandas as pd
-from sklearn.model_selection import train_test_split
-import pandas as pd
-import numpy as np
-from sklearn.ensemble import ExtraTreesClassifier
-import matplotlib.pyplot as plt
-from sklearn.feature_selection import SelectFromModel
-from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import MinMaxScaler
-import seaborn as sns
-import plotly.express as px
-import pickle
-
-
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.ensemble import BaggingClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import AdaBoostClassifier
-from sklearn.ensemble import ExtraTreesClassifier
-from sklearn.neighbors import KNeighborsClassifier
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import GradientBoostingClassifier
-
-from sklearn.metrics import accuracy_score,confusion_matrix,precision_score,f1_score
-
-
-
 
 #---------------------------------#
 # Page layout
